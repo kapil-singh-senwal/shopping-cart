@@ -1,16 +1,34 @@
-# React + Vite
+# 🛒 Shopping Cart - React & Redux Toolkit
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium, fully responsive e-commerce shopping cart application. This project demonstrates modern React 19 patterns, centralized state management with Redux, and a sleek UI using Tailwind CSS.
 
-Currently, two official plugins are available:
+## ✨ Features
+- **Real-time Cart Management**: Add or remove items with instant UI updates.
+- **Global State**: Powered by Redux Toolkit for seamless data flow across the app.
+- **Dynamic Product Fetching**: Integrates with the [FakeStore API](https://fakestoreapi.com/) for live product data.
+- **Premium UI/UX**: Built with Tailwind CSS v4, featuring glassmorphism, smooth hover effects, and a mobile-first responsive layout.
+- **Smart Navigation**: Uses React Router for fast, client-side routing between Home and Cart pages.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+- **Frontend**: React 19
+- **State Management**: Redux Toolkit
+- **Styling**: Tailwind CSS v4
+- **Routing**: React Router
+- **Icons/Loaders**: React Loader Spinner
 
-## React Compiler
+## 🛠️ Installation & Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/kapil-singh-senwal/shopping-cart.git
+   ```
 
-## Expanding the ESLint configuration
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
